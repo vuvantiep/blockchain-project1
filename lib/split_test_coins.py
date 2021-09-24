@@ -38,14 +38,14 @@ if __name__ == '__main__':
     ######################################################################
     # TODO: set these parameters correctly
     private_key = CBitcoinSecret(
-    'cVbEthYpv455qpiWaUbddtVFR2bCYRpJ4bJ7s3aTvMMHGkcm722y')
+    'cTXDYFdQDA4NypYBbjZj8thD4QUUm1t9YiVtoWfkzP5jtHG1FCEx')
     public_key = private_key.pub
     address = P2PKHBitcoinAddress.from_pubkey(public_key)
 
-    amount_to_send = 0.0038  # amount of BTC in the output you're splitting minus fee
+    amount_to_send = 0.003  # amount of BTC in the output you're splitting minus fee
     txid_to_spend = (
-        '1899e3b6f13bd5da67a1482185b01a245f497aac688fe8eb8f7ac6706f350455')
-    utxo_index = 1 # index of the output you are spending, indices start at 0
+        'd0fa3e93f778981d0b963cfe54927ca485bf0fe24bdc744f3a8b9c768c284475')
+    utxo_index = 0 # index of the output you are spending, indices start at 0
     n = 5 # number of outputs to split the input into
     # For n, choose a number larger than what you immediately need, 
     # in case you make mistakes.

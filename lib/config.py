@@ -21,7 +21,7 @@ network_type = 'btc-test3'
 # Send coins at https://coinfaucet.eu/en/btc-testnet/
 
 my_private_key = CBitcoinSecret(
-    'cVbEthYpv455qpiWaUbddtVFR2bCYRpJ4bJ7s3aTvMMHGkcm722y')
+    'cTXDYFdQDA4NypYBbjZj8thD4QUUm1t9YiVtoWfkzP5jtHG1FCEx')
 
 my_public_key = my_private_key.pub
 my_address = P2PKHBitcoinAddress.from_pubkey(my_public_key)
@@ -38,11 +38,11 @@ my_address = P2PKHBitcoinAddress.from_pubkey(my_public_key)
 # Only to be imported by alice.py
 # Alice should have coins!!
 alice_secret_key_BTC = CBitcoinSecret(
-    'cTAMhtaHZp3YA66Yjd1Ap9Bcy6DztC4tJVX5MtdxEouBob4XQnv4')
+    'cVrWtWxBh6KYCm5LToyZqFJBtJMZEGkAKAwckHLX15zzkJBsdDxi')
 
 # Only to be imported by bob.py
 bob_secret_key_BTC = CBitcoinSecret(
-    'cTiTER4nGyyrVxQBoKzi7nFtWCstS7uxyAWgw5kRP3ASVmNrE8KT')
+    'cSctA4rxro8KrWF9Ljx286sUTEopGDmAgnavVzMpQZ1ia7YkucMB')
 
 # Can be imported by alice.py or bob.py
 alice_public_key_BTC = alice_secret_key_BTC.pub
@@ -67,12 +67,12 @@ bob_address_BTC = P2PKHBitcoinAddress.from_pubkey(bob_public_key_BTC)
 
 # Only to be imported by alice.py
 alice_secret_key_BCY = CBitcoinSecret.from_secret_bytes(
-    x('3d5f444846f3dce279c1a5b1bbc6d4eb28ad66981647a271bf356232cb920f5b'))
+    x('22035fabb7843c6ac120e9d6f86048a4203ff53e440e4bde53c7915786f8eeb2'))
 
 # Only to be imported by bob.py
 # Bob should have coins!!
 bob_secret_key_BCY = CBitcoinSecret.from_secret_bytes(
-    x('a14a48941d61ad389c989588b7fb4dbf522e26ade49364fb59f7dd8ff6acd632'))
+    x('f17ff112ae3a4ca86dd4352c1b6d6170cfeb033baca694f3cdfb0e1d9bc69fd1'))
 
 # Can be imported by alice.py or bob.py
 alice_public_key_BCY = alice_secret_key_BCY.pub

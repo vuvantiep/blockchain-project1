@@ -1,0 +1,77 @@
+============MyPair========
+Private key: cTXDYFdQDA4NypYBbjZj8thD4QUUm1t9YiVtoWfkzP5jtHG1FCEx
+Address: muX8rVYGq94KLzQBeHz3VuzLiamxvXz1gs
+
+
+==========Cust1========
+Private key: cQ4tuf4HwbWX6u5NvVtZ82VHJhFgBeU9f9CsZ9sdxAAEyjo3TjNy
+Address: mrED8DP2psKQSNWiZCkAniWrVzmvYV5vrQ
+
+==========Cust2========
+Private key: cV9UXL58asjGHzvMbsU4EwKhz8fMVKD9YzwLuzH7tK7LKHwUpKXx
+Address: mzsRNDmXvomXtR9AWjAUZx8HR6haBkMbeS
+
+==========Cust3=========
+Private key: cUjwdR5izYXZcHZ5zJrV3g1RFgtnxAzXMfgDVcbSDQzWdynybMws
+Address: mhqH9KWBsQDP5yF1fHcWkXwz3HjN1at24q
+
+
+
+
+=============Log xin coin========
+Bitcoin testnet3 faucet
+Donate?
+We sent 0.00388922 bitcoins to address
+muX8rVYGq94KLzQBeHz3VuzLiamxvXz1gs
+
+tx: d0fa3e93f778981d0b963cfe54927ca485bf0fe24bdc744f3a8b9c768c284475
+
+Send coins back, when you don't need them anymore to the address
+
+mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB
+
+Back
+===============================
+
+===========Token blockcypher==============
+Token 48e036f1b2b94d9db7fdab5defa5fae0
+=============
+
+curl -X POST 'https://api.blockcypher.com/v1/bcy/test/addrs?token=48e036f1b2b94d9db7fdab5defa5fae0'
+
+========Response======
+cho Alice:
+{
+  "private": "91277ed5cf7fd0e050f907a573501f88c7d79ffaf1353f5ec8306867a3ddfe20",
+  "public": "029cb203fb87baddd61f0370fca3b94f206247f4677c39d076540c250b91e4034b",
+  "address": "C2iSKb8YkSXLvepk3siJH4HosZVcgw7NPB",
+  "wif": "BtCC5DhwXYu1Ed1SmodL6xGRFwCyzrGU9ofBQuLZvCKyG9caY2s5"
+}
+
+cho Bob:
+{
+  "private": "0081e7991a4dacf590c3d99a6d5a178ee162ae7e81f9e8151cedb9b8acfcdbac",
+  "public": "028d978801c82337f231cbe9017865c8b0c9d486fee39df026771bba01b1173aa9",
+  "address": "C8fFxsUofzeamZQxF7qGeHiHZebbg7ACHj",
+  "wif": "BoM1x2GNpRbS21VtbktTF9LY7WrnMPcRmJdpVR85XXTpSrWosrow"
+}%  
+================
+
+============
+curl -d '{"address": "C8fFxsUofzeamZQxF7qGeHiHZebbg7ACHj", "amount": 100000}' https://api.blockcypher.com/v1/bcy/test/faucet?token=48e036f1b2b94d9db7fdab5defa5fae0
+{
+  "tx_ref": "24323f3399a0f7b1a02b71baf59c70816cce42a47c206c55164fbaf41b04464f"
+}%      
+============
+
+
+==========Alice==========
+Private key: cVrWtWxBh6KYCm5LToyZqFJBtJMZEGkAKAwckHLX15zzkJBsdDxi
+Address: n1kNCxv9NEPNECwJSCT8SSQUPXkZskGS6P
+
+
+
+============Bob===========
+Private key: cSctA4rxro8KrWF9Ljx286sUTEopGDmAgnavVzMpQZ1ia7YkucMB
+Address: n2LReoxyqFVmi2RSSJvnYm5Lwprfa4Xhee
+
